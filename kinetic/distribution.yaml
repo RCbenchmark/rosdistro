@@ -6214,6 +6214,21 @@ repositories:
       url: https://github.com/RobotnikAutomation/rbcar_sim.git
       version: kinetic-devel
     status: maintained
+  rcbenchmark_ros_pkg:
+    doc:
+      type: git
+      url: https://gitlab.com/TytoRobotics/rcbenchmark_ros_pkg.git
+      version: master
+    release:
+      packages:
+      - cherokey
+      - rcbenchmark
+    source:
+      type: git
+      url: https://gitlab.com/TytoRobotics/rcbenchmark_ros_pkg.git
+      version: master
+    status: developed
+    version: 0.0.0-1
   rcll_fawkes_sim:
     doc:
       type: git
